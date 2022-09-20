@@ -19,3 +19,10 @@ serOut (salida en serie): se usa cuando necesita controlar un segundo registro d
 
 ![](src/image3.png)
 
+## Configuracion pines
+
+| Número pin    | Nombre del pin               | descripción                                                                                      |
+| ------------- | ---------------------------- | ------------------------------------------------------------------------------------------------ |
+| 1,2,3,4,5,6,7 | Pines de salida (de Q1 a Q7) | El 74hc595 tiene 8 pines de salida de los cuales 7 son estos pines. Se pueden controlar en serie |
+| 8             | tierra                       | Conectado al suelo del circuito                                                                  |
+| 9             | (P7) Salida en serie         | Este pin se utiliza para conectar más de un 74hc595 como cascada                                 |
